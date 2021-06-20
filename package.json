@@ -1,5 +1,5 @@
 {
-  "name": "letschat",
+  "name": "jabber",
   "version": "1.0.0",
   "description": "Realtime chat application",
   "main": "server.js",

@@ -27,7 +27,7 @@ io.on('connection', socket => {
     socket.join(user.room);
 
     // Welcome current user
-    socket.emit('message', formatMessage(botName, 'Welcome to LetsChat'));
+    socket.emit('message', formatMessage(botName, 'Welcome to jabber'));
 
     // Broadcast when a user connects
     socket.broadcast
